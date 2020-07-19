@@ -33,6 +33,12 @@ For training I first created LeNet architecture from scratch but model convergen
 
 ### Evaluation
 
+For evaluating the model I have calculated iou, acurracy, precison and recall @ threshold = 0.1889<br/>
+**IOU = 0.5943**<br/>
+**Accuracy = 96.44**<br/>
+**Precision = 0.7424**<br/>
+**Recall = 0.7475**<br/>
+
 Sample predicted image are as follows
 
 ![Test Image 1](prediction/img-1.png)
@@ -40,9 +46,3 @@ Sample predicted image are as follows
 ![Test Image 2](prediction/img-2.png)
 
 ![Test Image 3](prediction/img-3.png)
-
-For evaluating the model I have calculated iou, acurracy, precison and recall @ threshold = 0.1889<br/>
-**IOU = 0.5943**<br/>
-**Accuracy = 96.44**<br/>
-**Precision = 0.7424**<br/>
-**Recall = 0.7475**<br/>
