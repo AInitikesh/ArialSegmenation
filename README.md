@@ -1,6 +1,6 @@
 # Satellite Imagery Segmentation 
 
-Goal of this project is to segment the road networks from satellite captured images.<\br>
+Goal of this project is to segment the road networks from satellite captured images.<br/>
 
 I have refered and copied some code which I felt usefull from 
 https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8. 
@@ -29,7 +29,7 @@ Another thing was to split the image into 9 smaller chunks and create a batch of
 
 ### Training
 
-For training I first created LeNet architecture from scratch but model convergence was taking time and accuracy was also not good. So I decided to go with pretrained UNet network. Advantages of pretrained network is that they have already learnt to recognize much of the features. Now by using such models its easier and faster to train such model. 
+For training I first created LeNet architecture from scratch but model convergence was taking time and accuracy was also not good. So I decided to go with pretrained UNet network. Advantages of pretrained network is that they have already learnt to recognize much of the features. Now by using such models its easier and faster to train such model. I have used AWS p2xlarge  EC2 instance for training the model.
 
 ### Evaluation
 
@@ -39,7 +39,7 @@ For evaluating the model I have calculated iou, acurracy, precison and recall @ 
 **Precision = 0.7424**<br/>
 **Recall = 0.7475**<br/>
 
-Sample predicted image are as follows
+Sample predicted images are as follows
 
 ![Test Image 1](prediction/img-1.png)
 
