@@ -1,3 +1,4 @@
 .DS_Store
 road_segmentation_ideal
 road_crop.10.h5
+.ipynb_checkpoints/
