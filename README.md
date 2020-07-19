@@ -1,4 +1,4 @@
-# Satellite imagery segmenation 
+# Satellite Imagery Segmentation 
 
 Goal of this project is to segment the road networks from satellite captured images.
 
