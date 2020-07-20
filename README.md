@@ -46,3 +46,9 @@ Sample predicted images are as follows
 ![Test Image 2](prediction/img-2.png)
 
 ![Test Image 3](prediction/img-3.png)
+
+### Scope of improvements
+* Augmenting images for further improving the results.
+* Training for more epochs to see if iou score increase.
+* Training with State of the art segmentation models like HRNet-OCR.
+
